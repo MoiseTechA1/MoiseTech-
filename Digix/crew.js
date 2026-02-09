@@ -77,13 +77,13 @@ async function connectToWhatsapp(handleMessage) {
 > "Always Forward. MOISETECH, one of the best."
 ╚══════════════════╝
 
-*Digital Crew 243*
+*MOISETECH*
                 `;
 
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by DigiX Crew',
+                    footer: '💻 Powered by MOISETECH,
                 });
 
                 console.log('📩 Welcome message sent successfully!');
@@ -111,7 +111,7 @@ async function connectToWhatsapp(handleMessage) {
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'MOISETECH);
+                const code = await sock.requestPairingCode(number, 'MOISTECH);
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
