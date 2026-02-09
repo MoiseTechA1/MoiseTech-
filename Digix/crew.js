@@ -83,7 +83,7 @@ async function connectToWhatsapp(handleMessage) {
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by MOISETECH,
+                    footer: '💻 Powered by MOISETECH',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
